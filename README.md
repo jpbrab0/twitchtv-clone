@@ -1,6 +1,5 @@
 # 📺`Twitch.Tv` Ui Clone
 ## Feito por [👨‍💻João Pedro Resende](https://www.linkedin.com/in/jpresdev/)
----
 
 # Apresentação📄
 Ui clone do app mobile da `twitch.tv` com react native e alguns conceitos da linguagem como:
