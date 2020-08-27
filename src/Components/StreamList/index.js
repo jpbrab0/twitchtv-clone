@@ -14,7 +14,7 @@ const Stream = ({ name,title }) => {
                         <Image style={styles.icon} source={{uri: 'https://static-cdn.jtvnw.net/jtv_user_pictures/8f44df5f-4f0c-404c-a4fd-22609fc90f4a-profile_image-70x70.png' }} />
                         <Text style={styles.text} >{name}</Text>
                     </View>
-                    <Text style={styles.text} >{title}</Text>
+                    <Text numberOfLines={1} style={styles.text} >{title}</Text>
                 </View>
             </View>
         </TouchableOpacity>
