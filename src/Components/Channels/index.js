@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, ScrollView,Image } from 'react-native'
+import { View, Text, TouchableOpacity, Image } from 'react-native'
 import AvatarChannel from '../../images/avatar_channel.png'
 import styles from './styles'
 const Channel = ({ name,source }) => {
@@ -12,13 +12,13 @@ const Channel = ({ name,source }) => {
 }
 function Channels(){
    return(
-       <ScrollView>
+       <View>
            <Text style={styles.title}>Canais offline</Text>
            <Channel name="Twitch" source={AvatarChannel} />
            <Channel name="Twitch" source={AvatarChannel} />
            <Channel name="Twitch" source={AvatarChannel} />
            <Channel name="Twitch" source={AvatarChannel} />
-       </ScrollView>
+       </View>
    )
 }
 export default Channels

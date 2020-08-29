@@ -1,10 +1,10 @@
 import React from 'react'
-import { Text,View,TouchableOpacity, ScrollView, Image } from 'react-native'
+import { Text,View,TouchableOpacity, Image } from 'react-native'
 import styles from './styles'
 import StreamThumbnail from '../../images/stream_thumbnail.jpg'
 const Stream = ({ name,title }) => {
     return(
-        <TouchableOpacity style={styles.container}>
+        <TouchableOpacity >
             
             <View style={styles.stream}>
 
@@ -22,13 +22,13 @@ const Stream = ({ name,title }) => {
 }
 const StreamList = () => {
     return(
-        <ScrollView>
+        <View style={styles.container}>
             <Text style={styles.title}>Canais ao vivo</Text>
             <Stream  name="jpbrab0" title="Programando o ui clone da twitch!"/>
             <Stream name="jpbrab0" title="Programando o ui clone da twitch!"/>
             <Stream name="jpbrab0" title="Programando o ui clone da twitch!"/>
             <Stream name="jpbrab0" title="Programando o ui clone da twitch!"/>
-        </ScrollView>
+        </View>
     )
 }
 export default StreamList

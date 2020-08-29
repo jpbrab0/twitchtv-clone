@@ -17,7 +17,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "jpresende.twitchclone.ios"
     },
     "web": {
       "favicon": "./assets/favicon.png"

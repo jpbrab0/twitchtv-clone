@@ -1,14 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView,ScrollView } from 'react-native';
-import Following from './src/Pages/Following'
-import Header from './src/Components/Header/index'
+import { StyleSheet, View } from 'react-native';
+import Routes from './routes'
 export default function App() {
   return (
     <View style={styles.container}>
-    <Header />
-    <ScrollView style={styles.container}>
-      <Following/>
-    </ScrollView>
+      <Routes/>
     </View>
   );
 }
